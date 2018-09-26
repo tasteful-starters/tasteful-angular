@@ -3,14 +3,14 @@
 </p>
 
 <form>
-  <input [(ngModel)]="newTodo" name="newTodo"/>
+  <input [(ngModel)]="newTodo" name="newTodo" />
   <button (click)="addTodo()" type="submit">Add Todo</button>
 </form>
 
 <ul>
-  <li *ngFor="let task of list">
-      <input type="checkbox" [(ngModel)]="task.done"/>
-      {{task.name}}
+  <li *ngFor="let task of (todoList$ | async); let i = index">
+    <input type="checkbox" [ngModel]="task.done" (click)="toggleTodo(i)" />
+    {{task.name}}
   </li>
 </ul>
 
@@ -18,4 +18,4 @@
 
 <h3>Debug Stuff</h3>
 
-<pre>{{list | json}}</pre>
+<pre>{{todoList$ | async | json}}</pre>
