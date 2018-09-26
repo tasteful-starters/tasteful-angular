@@ -1,27 +1,20 @@
 # TastefulAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+This is the starter is created in our workshop.
 
-## Development server
+It demonstrates how to architect a scalable Angular Starter with Angular-CLI and Redux
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Steps
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [1 Bootstrap](./steps/1.Bootstrap.md)
+- [2 Optimize The Build](./steps/2.OptimizeTheBuild.md)
+- [3 Add Aliases For Environment Variables](./steps/3.AddAliasesForEnvironmentVariables.md)
+- [4 Add A Staging Environment](./steps/4.AddAStagingEnvironment.md)
+- [5 Install And Tastefully Import Bootstrap](./steps/5.InstallAndTastefullyImportBootstrap)
+- [6 Routing](./steps/6.Routing.md)
+- [7 Setup Redux](./steps/7.SetupRedux)
+- Todo App
+    - [1 CreateWithBasicArchitecture](./steps/todo-app/1.CreateWithBasicArchitecture.md)
+    - [2 Replace Local State With Redux](./steps/todo-app/2.ReplaceLocalStateWithRedux.md)
+    - [3 Convert To Component Based Architecture](./steps/todo-app/3.ConvertToComponentBasedArchitecture.md)
+    - [4 Routes](./steps/4.Routes.md)
