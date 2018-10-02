@@ -12,9 +12,10 @@ It demonstrates how to architect a scalable Angular Starter with Angular-CLI and
 - [4 Add A Staging Environment](./steps/4.AddAStagingEnvironment.md)
 - [5 Install And Tastefully Import Bootstrap](./steps/5.InstallAndTastefullyImportBootstrap)
 - [6 Routing](./steps/6.Routing.md)
-- [7 Setup Redux](./steps/7.SetupRedux)
-- Todo App
+- [7 Setup Redux](./steps/7.SetupRedux.md)
+- 8 Todo App
     - [1 CreateWithBasicArchitecture](./steps/todo-app/1.CreateWithBasicArchitecture.md)
     - [2 Replace Local State With Redux](./steps/todo-app/2.ReplaceLocalStateWithRedux.md)
     - [3 Convert To Component Based Architecture](./steps/todo-app/3.ConvertToComponentBasedArchitecture.md)
     - [4 Routes](./steps/4.Routes.md)
+- [9 SetupEffects](./steps/9.SetupEffects.md)
