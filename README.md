@@ -10,7 +10,7 @@ It demonstrates how to architect a scalable Angular Starter with Angular-CLI and
 - [2 Optimize The Build](./steps/2.OptimizeTheBuild.md)
 - [3 Add Aliases For Environment Variables](./steps/3.AddAliasesForEnvironmentVariables.md)
 - [4 Add A Staging Environment](./steps/4.AddAStagingEnvironment.md)
-- [5 Install And Tastefully Import Bootstrap](./steps/5.InstallAndTastefullyImportBootstrap)
+- [5 Install And Tastefully Import Bootstrap](./steps/5.InstallAndTastefullyImportBootstrap.md)
 - [6 Routing](./steps/6.Routing.md)
 - [7 Setup Redux](./steps/7.SetupRedux.md)
 - 8 Todo App
